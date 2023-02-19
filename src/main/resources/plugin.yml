@@ -1,0 +1,11 @@
+name: Spawn
+version: '1.19.2'
+main: xyz.sl_on_top.spawn.Operator
+api-version: 1.19
+authors: [ Andreyka_12_51 ]
+description: spawn_tp_for_ez
+commands:
+  spawn: {}
+  free: {}
+  site: {}
+
