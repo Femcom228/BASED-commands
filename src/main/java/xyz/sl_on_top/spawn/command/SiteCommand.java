@@ -13,7 +13,6 @@ public class SiteCommand extends BaseCommand {
 
     @Override
     public void execute(CommandSender sender, String label, String[] args) {
-
         sender.sendMessage(ChatColor.DARK_AQUA + "Сайт сервера:" + " " + ChatColor.WHITE + "https://mineice.ru");
     }
 }

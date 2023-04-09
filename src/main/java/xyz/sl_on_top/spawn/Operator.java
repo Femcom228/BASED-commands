@@ -14,11 +14,9 @@ public final class Operator extends JavaPlugin {
 
     @Override
     public void onEnable() {
-
         instance = this;
         new SpawnCommand();
         new FreeCommand();
         new SiteCommand();
-
     }
 }
