@@ -29,7 +29,7 @@ public class SpawnCommand extends BaseCommand {
             double z = ThreadLocalRandom.current().nextInt(-200, 200 + 1);
 
             for (int y = 319; y > -63; y--) {
-                Location location = new Location(Bukkit.getWorld("overworld"), x, y, z);
+                Location location = new Location(Bukkit.getWorld("world"), x, y, z);
                 if (location.getBlock().getType() != Material.AIR && location.add(0, 1, 0).getBlock().getType() == Material.AIR && location.add(0, 2, 0).getBlock().getType() == Material.AIR) {
                     player.teleport(location);
                     sender.sendMessage(ChatColor.DARK_GREEN + "Вы были телепортированы на спавн.");
